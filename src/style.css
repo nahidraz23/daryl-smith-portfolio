@@ -1,8 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: black;
-    color: white;
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  /* background-image: url('../assets/background.svg'); */
+  color: white;
+  background-color: #2d2d2d;
+  padding: 50px 0;
+}
+
+header, main {
+  max-width: 68%;
+  margin: 0 auto;
+  /* background-color: blanchedalmond; */
+  /* color: black; */
 }

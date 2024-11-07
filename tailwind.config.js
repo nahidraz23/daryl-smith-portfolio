@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-yellow': 'linear-gradient(90deg, #F5BD4D 0.36%, #F89222 99.88%)'
+      },
+      colors: {
+        'primary-yellow' : '#F89222',
+        'header-bg' : '#121414;'
+      }
+    },
   },
   plugins: [],
 }
