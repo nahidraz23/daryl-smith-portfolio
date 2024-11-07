@@ -8,7 +8,7 @@ module.exports = {
       },
       colors: {
         'primary-yellow' : '#F89222',
-        'header-bg' : '#121414;'
+        'nav-bg' : '#121414;'
       }
     },
   },
